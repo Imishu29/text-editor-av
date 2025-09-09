@@ -18,6 +18,11 @@
     "target": "ES2022",
     "module": "ES2022",
     "useDefineForClassFields": false,
+    "paths": {
+      "text-editor-av": [
+        "./dist/text-editor-av"
+      ]
+    },
     "lib": [
       "ES2022",
       "dom"

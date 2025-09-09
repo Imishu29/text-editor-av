@@ -25,3 +25,28 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+# Text Editor AV - Angular Rich Text Editor 🚀
+
+Ultimate FREE Rich Text Editor Library with Premium Features!
+
+## 🌟 Features
+
+- ✅ **Complete Text Formatting** (Bold, Italic, Underline, etc.)
+- ✅ **Media Support** (Images, Videos, Links)
+- ✅ **Code Blocks** with Syntax Highlighting
+- ✅ **Export Options** (PDF, DOCX, Markdown, HTML)
+- ✅ **Emoji Picker** with 200+ emojis
+- ✅ **Dark/Light Themes**
+- ✅ **Auto-save** to LocalStorage
+- ✅ **@Mentions** and #Hashtags
+- ✅ **Tables & Lists**
+- ✅ **And Much More!**
+
+## 🚀 Quick Start
+
+### Installation
+
+```bash
+npm install text-editor-av

@@ -1,0 +1,31 @@
+{
+  "name": "text-editor-av",
+  "version": "1.0.0",
+  "description": "Ultimate Free Text Editor with Premium Features - Bold, Italic, Tables, Code Blocks, Export PDF/DOCX, Themes, Emojis and more!",
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Imishu29/text-editor-av.git"
+  },
+  "keywords": [
+    "angular",
+    "text-editor",
+    "wysiwyg",
+    "rich-text-editor",
+    "markdown",
+    "pdf-export",
+    "docx-export",
+    "emoji-picker",
+    "code-highlighting",
+    "free-editor",
+    "premium-features"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^17.0.0",
+    "@angular/core": "^17.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
