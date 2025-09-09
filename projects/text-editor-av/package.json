@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Imishu29/text-editor-av.git"
+    "url": "git@github.com:Imishu29/text-editor-av.git"
   },
   "keywords": [
     "angular",
