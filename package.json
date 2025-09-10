@@ -1,14 +1,14 @@
 {
   "name": "text-editor-av-workspace",
   "version": "0.0.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "serve:ssr:demo-app": "node dist/demo-app/server/server.mjs"
-  },
+ "scripts": {
+  "ng": "ng",
+  "start": "ng serve",
+  "build": "ng build text-editor-av",
+  "watch": "ng build text-editor-av --watch --configuration development",
+  "test": "ng test",
+  "serve:ssr:demo-app": "node dist/demo-app/server/server.mjs"
+},
   "private": true,
   "dependencies": {
     "@angular/animations": "^17.3.0",
@@ -53,5 +53,14 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "ng-packagr": "^17.3.0",
     "typescript": "~5.4.2"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-personal:Imishu29/text-editor-av.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

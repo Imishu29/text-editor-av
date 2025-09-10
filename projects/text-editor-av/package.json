@@ -1,8 +1,8 @@
 {
   "name": "text-editor-av",
-  "version": "1.0.0",
+  "version": "2.1.1",
   "description": "Ultimate Free Text Editor with Premium Features - Bold, Italic, Tables, Code Blocks, Export PDF/DOCX, Themes, Emojis and more!",
-  "author": "Your Name",
+  "author": "Abhishek Rout",
   "license": "MIT",
   "repository": {
     "type": "git",

@@ -1,24 +1,53 @@
-# TextEditorAv
+TextEditorAv
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
+🚀 Ultimate Free Angular Text Editor
+Powerful, feature-rich, and free text editor for Angular applications.
 
-## Code scaffolding
+📦 Installation
+npm install text-editor-av --save
 
-Run `ng generate component component-name --project text-editor-av` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project text-editor-av`.
-> Note: Don't forget to add `--project text-editor-av` or else it will be added to the default project in your `angular.json` file. 
 
-## Build
+or
 
-Run `ng build text-editor-av` to build the project. The build artifacts will be stored in the `dist/` directory.
+yarn add text-editor-av
 
-## Publishing
+🚀 Usage
+Import the Module
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { TextEditorAvModule } from 'text-editor-av';
+import { AppComponent } from './app.component';
 
-After building your library with `ng build text-editor-av`, go to the dist folder `cd dist/text-editor-av` and run `npm publish`.
+@NgModule({
+  declarations: [AppComponent],
+  imports: [BrowserModule, TextEditorAvModule],
+  bootstrap: [AppComponent]
+})
+export class AppModule {}
 
-## Running unit tests
+Use in Component
+<text-editor-av [(ngModel)]="content"></text-editor-av>
 
-Run `ng test text-editor-av` to execute the unit tests via [Karma](https://karma-runner.github.io).
+import { Component } from '@angular/core';
 
-## Further help
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html'
+})
+export class AppComponent {
+  content: string = '';
+}
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+👨‍💻 Author
+
+Abhishek Rout
+
+LinkedIn: abhishekrout1999
+
+Email: abhishekrout128@gmail.com
+
+📄 License
+
+MIT © Abhishek Rout
+
+⭐ If you like this package, please give it a star on GitHub!
