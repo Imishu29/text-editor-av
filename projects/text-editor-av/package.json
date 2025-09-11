@@ -1,31 +1,130 @@
 {
-  "name": "text-editor-av",
-  "version": "2.1.1",
-  "description": "Ultimate Free Text Editor with Premium Features - Bold, Italic, Tables, Code Blocks, Export PDF/DOCX, Themes, Emojis and more!",
-  "author": "Abhishek Rout",
+  "name": "ckb-editor-angular",
+  "version": "3.0.1",
+  "description": "🚀 Free Angular Rich Text Editor (WYSIWYG) - Alternative to CKEditor, TinyMCE, Quill | PDF/DOCX Export, Tables, Code Blocks, Emoji Support, Themes",
+  "author": {
+    "name": "Abhishek Rout",
+    "email": "your-email@gmail.com",
+    "url": "https://www.linkedin.com/in/abhishek-rout"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:Imishu29/text-editor-av.git"
+    "url": "git+https://github.com/Imishu29/ckb-editor-angular.git"
+  },
+  "homepage": "https://github.com/Imishu29/ckb-editor-angular#readme",
+  "bugs": {
+    "url": "https://github.com/Imishu29/ckb-editor-angular/issues"
   },
   "keywords": [
+    "ckeditor",
+    "ck-editor",
+    "ckeditor5",
+    "ckeditor4",
+    "ckeditor-angular",
+    "ckeditor-alternative",
+    "ckb-editor",
+    "ckb-editor-angular",
     "angular",
-    "text-editor",
+    "angular-editor",
+    "angular-ckeditor",
+    "angular-text-editor",
+    "angular-rich-text-editor",
+    "angular-wysiwyg",
+    "angular-wysiwyg-editor",
     "wysiwyg",
+    "wysiwyg-editor",
+    "wysiwyg-html-editor",
     "rich-text-editor",
+    "richtext-editor",
+    "richtexteditor",
+    "rich-editor",
+    "text-editor",
+    "html-editor",
+    "content-editor",
+    "document-editor",
+    "tinymce",
+    "tinymce-angular",
+    "tinymce-alternative",
+    "quill",
+    "quill-editor",
+    "quill-alternative",
+    "froala-alternative",
+    "summernote",
+    "summernote-alternative",
+    "ng-editor",
+    "ngx-editor",
+    "ng-wysiwyg",
+    "ngx-wysiwyg",
+    "ng-ckeditor",
+    "ngx-ckeditor",
+    "ng-quill",
+    "ngx-quill-alternative",
     "markdown",
+    "markdown-editor",
     "pdf-export",
     "docx-export",
+    "word-export",
+    "pdf-generator",
+    "emoji",
     "emoji-picker",
+    "emoji-support",
+    "code-editor",
     "code-highlighting",
+    "syntax-highlighting",
+    "code-blocks",
     "free-editor",
-    "premium-features"
+    "free-ckeditor",
+    "opensource",
+    "opensource-editor",
+    "premium-features",
+    "inline-editor",
+    "toolbar",
+    "formatting",
+    "bold",
+    "italic",
+    "underline",
+    "tables",
+    "table-editor",
+    "themes",
+    "dark-mode",
+    "light-mode",
+    "customizable",
+    "responsive",
+    "bootstrap-editor",
+    "material-editor"
   ],
   "peerDependencies": {
-    "@angular/common": "^17.0.0",
-    "@angular/core": "^17.0.0"
+    "@angular/common": ">=12.0.0",
+    "@angular/core": ">=12.0.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "sideEffects": false,
+  "main": "bundles/ckb-editor-angular.umd.js",
+  "module": "fesm2015/ckb-editor-angular.js",
+  "es2015": "fesm2015/ckb-editor-angular.js",
+  "esm2015": "esm2015/ckb-editor-angular.js",
+  "fesm2015": "fesm2015/ckb-editor-angular.js",
+  "typings": "ckb-editor-angular.d.ts",
+  "metadata": "ckb-editor-angular.metadata.json",
+  "contributors": [
+    {
+      "name": "Abhishek Rout",
+      "url": "https://www.linkedin.com/in/abhishek-rout"
+    }
+  ],
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/Imishu29"
   }
 }
