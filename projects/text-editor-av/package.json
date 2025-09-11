@@ -1,6 +1,6 @@
 {
   "name": "ckb-editor-angular",
-  "version": "3.0.1",
+  "version": "3.0.3",
   "description": "🚀 Free Angular Rich Text Editor (WYSIWYG) - Alternative to CKEditor, TinyMCE, Quill | PDF/DOCX Export, Tables, Code Blocks, Emoji Support, Themes",
   "author": {
     "name": "Abhishek Rout",
